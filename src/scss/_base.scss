@@ -1,0 +1,10 @@
+@import "colors";
+
+* {
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  background: $background-1;
+}

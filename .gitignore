@@ -1,0 +1,12 @@
+# Node modules 
+node_modules 
+
+# VSCode 
+resume.code-workspace
+
+
+# Build 
+dist/
+
+# yarn 
+yarn-error.log
