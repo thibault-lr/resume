@@ -7,16 +7,16 @@ import 'scss/global.scss';
 import App from './App';
 
 ReactDOM.render(
-    <App />,
-    document.getElementById('root')
+  <App />,
+  document.getElementById('root'),
 );
 
-// HMR 
+// HMR
 declare let module: { hot: any};
 
 if (module.hot) {
-    module.hot.accept('./App', () => {
-        // eslint-disable-next-line global-require
-        ReactDOM.render(<App />, document.getElementById('root'));
-    });
+  module.hot.accept('./App', () => {
+    // eslint-disable-next-line global-require
+    ReactDOM.render(<App />, document.getElementById('root'));
+  });
 }

@@ -1,8 +1,23 @@
 {
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "files.exclude": {
     "**/.git": true,
     "**/.DS_Store": true
   },
-  "scss.lint.importStatement": "ignore"
+  "scss.lint.importStatement": "ignore",
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "scss.validate": true,
+  "css.validate": true,  
 }

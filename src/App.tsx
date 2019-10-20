@@ -1,7 +1,10 @@
 import * as React from 'react';
 
+import Title from 'components/atoms/Title';
+
+
 const App = () => (
-    <h1> Test </h1>
+  <Title title="test" />
 );
 
 export default App;
