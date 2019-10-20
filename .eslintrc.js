@@ -18,13 +18,16 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+  env:{
+    "jest": true,
+    "browser": true
+  },
   plugins: [
     'react',
     '@typescript-eslint',
   ],
   rules: {
     "react/jsx-filename-extension": [1, { "extensions": [".js",".ts", ".tsx"] }],
-
   },
   settings: {
     "import/extensions": [
